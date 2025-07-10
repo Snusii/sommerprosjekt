@@ -5,48 +5,55 @@ export default function Home() {
   return (
     
     <>
+    <div id="main-container">
     <section>
       
-      <div>
+      <div className="margin">
       <h1 className='blue-text'>FAST, FAIR AND AUTOMATED</h1>
 
       <p>TapIn is your go-to hub for hosting gaming events directly in Discord</p>
       </div>
 
-      <div>
-        <img src="/Images/joinnow.png" alt="Join now image with Discord link"/>
+      <div id="announcement-container">
+        <img className="joinNow" src="/Images/joinnow.png" alt="Join now image with Discord link"/>
 
-        <span>
-          <img src="/Images/purplecircle.svg" alt="Purple circle icon"/>
+        <div id="announcement">
+          
+          <span className="announcement-items">
+            <img src="/Images/purplecircle.svg" alt="Purple circle icon"/>
+            
+            <ul>
+              BOT
+              <li>- Setting up events.</li>
+            </ul>
+          </span>
+      
 
-          <ul>
-            BOT
-            <li>- Setting up events.</li>
-          </ul>
-        </span>
+          <span className="announcement-items">
 
-        <span>
-          <img src="/Images/bluecircle.svg" alt="Blue circle icon"/>
+            <img src="/Images/bluecircle.svg" alt="Blue circle icon"/>
 
-          <ul>
-            TapIn
-            <li>
-              - React to events on Discord.
-            </li>
-            <li>
-              - Join the fun!
-            </li>
-          </ul>
-        </span>
+            <ul>
+              TapIn
+              <li>
+                - React to events on Discord.
+              </li>
+              <li>
+                - Join the fun!
+              </li>
+            </ul>
+          </span>
 
-        <span>
-          <img src="/Images/purplecircle.svg" alt="Purple circle icon"/>
+          <span className="announcement-items">
+            <img src="/Images/purplecircle.svg" alt="Purple circle icon"/>
 
-          <ul>
-            Leaderboard
-            <li>- Updates after each event.</li>
-          </ul>
-        </span>
+            <ul>
+              Leaderboard
+              <li>- Updates after each event.</li>
+            </ul>
+          </span>
+
+        </div>
 
       </div>
 
@@ -80,6 +87,7 @@ export default function Home() {
        <p>Join Discord to connect with the community, and hit Leaderboard to see today's top players!</p>
        
     </section>
+    </div>
 </>
     
 

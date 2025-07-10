@@ -12,7 +12,7 @@ export default function Header() {
     return (
         <header>
             <div id='header-container'>
-
+            
             <img className='logo' src="/Images/logo.png" alt="logo" />
             
                 <nav>

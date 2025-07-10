@@ -19,6 +19,16 @@ html,body {
   color: var(--white-text);
 }
 
+.blue-text {
+  color: var(--blue-text);
+}
+
+.white-text {
+  color: var(--white-text);
+}
+
+/* Header */
+
 #header-container {
   height: 100vh;
   max-height: fit-content;
@@ -34,10 +44,53 @@ html,body {
 }
 
 
-.blue-text {
-  color: var(--blue-text);
+
+/* Main */
+
+#main-container {
+  margin-left: 5%;
 }
 
-.white-text {
-  color: var(--white-text);
+.flex{
+  display: flex;
 }
+/* Settings for smaller devices */
+@media only screen and (max-width: 1024px) {
+  .joinNow {
+    max-width: 45%;
+    
+  }
+  #announcement-container {
+    font-size: 15px;
+    
+  }
+}
+#announcement-container {
+  width: 100vw;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.joinNow > img {
+  height: 100vh;
+  max-height: 80%;
+
+ 
+}
+
+#announcement {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.announcement-items {
+  align-items: center;
+  display: flex;
+
+}
+
