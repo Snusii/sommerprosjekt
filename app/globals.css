@@ -20,7 +20,7 @@ html,body {
   color: var(--white-text);
 }
 
-#nav-container {
+#header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;

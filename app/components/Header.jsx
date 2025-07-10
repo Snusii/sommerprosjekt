@@ -11,28 +11,31 @@ export default function Header() {
 
     return (
         <header>
+            <div id='header-container'>
+
             <img src="/Images/logo.png" alt="logo" />
-        
-            <nav id='nav-container'>
-
             
+                <nav>
 
-                {pathname === '/' ? (
-                    <Link href="/Leaderboard">
+                
+
+                    {pathname === '/' ? (
+                        <Link href="/Leaderboard">
+                        <button className='nav-btn'>
+                            Leaderboard
+                        </button>
+                        </Link>
+                    ):
+                    (
+                    <Link href="/">
                     <button className='nav-btn'>
-                        Leaderboard
+                        Home
                     </button>
                     </Link>
-                ):
-                (
-                <Link href="/">
-                <button className='nav-btn'>
-                    Home
-                </button>
-                </Link>
-                )}
+                    )}
 
-            </nav>
+                </nav>
+            </div>
         </header>
     );
 }
