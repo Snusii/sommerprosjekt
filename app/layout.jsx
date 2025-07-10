@@ -18,16 +18,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${robotoCondensed.variable}`}>
-        {children}
-        <header>
-          <Header/>
-        </header>
+        
+        <Header/>
+        
         <main>
 
-        </main>
-        <footer>
+          {children}
 
-        </footer>
+        </main>
+      
       </body>
     </html>
   );
