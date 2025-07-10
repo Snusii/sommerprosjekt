@@ -20,11 +20,24 @@ html,body {
 }
 
 #header-container {
+  height: 100vh;
+  max-height: fit-content;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 5%;
 }
 
-.nav-btn {
+.logo {
+  height: 100vh;
+  max-height: 25%;
+}
+
+
+.blue-text {
   color: var(--blue-text);
+}
+
+.white-text {
+  color: var(--white-text);
 }

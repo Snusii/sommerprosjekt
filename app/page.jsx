@@ -58,17 +58,17 @@ export default function Home() {
 
       <ul className="blue-text">
         Efficient and automated
-        <li>No need to manage signups or create teams manually.</li>
+        <li className="white-text">No need to manage signups or create teams manually.</li>
       </ul>
 
       <ul className="blue-text">
         Balanced competition
-        <li>Fair teams based on performance.</li>
+        <li className="white-text">Fair teams based on performance.</li>
       </ul>
 
       <ul className="blue-text">
         Engaging and social
-        <li>Seamless voice setup and dynamic gameplay.</li>
+        <li className="white-text">Seamless voice setup and dynamic gameplay.</li>
       </ul>
 
     </section>

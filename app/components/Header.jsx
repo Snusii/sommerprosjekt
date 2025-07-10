@@ -13,7 +13,7 @@ export default function Header() {
         <header>
             <div id='header-container'>
 
-            <img src="/Images/logo.png" alt="logo" />
+            <img className='logo' src="/Images/logo.png" alt="logo" />
             
                 <nav>
 
@@ -21,14 +21,14 @@ export default function Header() {
 
                     {pathname === '/' ? (
                         <Link href="/Leaderboard">
-                        <button className='nav-btn'>
+                        <button className='blue-text'>
                             Leaderboard
                         </button>
                         </Link>
                     ):
                     (
                     <Link href="/">
-                    <button className='nav-btn'>
+                    <button className='blue-text'>
                         Home
                     </button>
                     </Link>
