@@ -21,14 +21,14 @@ export default function Header() {
 
                     {pathname === '/' ? (
                         <Link href="/Leaderboard">
-                        <button className='tapin-list'>
+                        <button className='nav-btn'>
                             Leaderboard
                         </button>
                         </Link>
                     ):
                     (
                     <Link href="/">
-                    <button className='blue-text'>
+                    <button className='nav-btn'>
                         Home
                     </button>
                     </Link>

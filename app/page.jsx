@@ -66,31 +66,32 @@ export default function Home() {
 
    <section>
 
-      <h2>Why TapIn?</h2>
+      <h2 className="about-title">Why <b>TapIn?</b></h2>
 
-      <ul className="tapin-list">
+      <h3 className="gradient-text">
         Efficient and automated
-        <li className="white-text">No need to manage signups or create teams manually.</li>
-      </ul>
+      </h3>
+      <p>No need to manage signups or create teams manually.</p>
 
-      <ul className="tapin-list">
+      <h3 className="gradient-text">
         Balanced competition
-        <li className="white-text">Fair teams based on performance.</li>
-      </ul>
+      </h3>
+      <p>Fair teams based on performance.</p>
 
-      <ul className="tapin-list">
+      <h3 className="gradient-text">
         Engaging and social
-        <li className="white-text">Seamless voice setup and dynamic gameplay.</li>
-      </ul>
+      </h3>
+      <p>Seamless voice setup and dynamic gameplay.</p>
+      
 
     </section>
 
     <section>
-
-       <h2>Ready to Tap In?</h2>
+      <div id="discord-container">
+       <h2 className="discord-title">Ready to <b>Tap In?</b></h2>
 
        <p>Join Discord to connect with the community, and hit Leaderboard to see today's top players!</p>
-       
+      </div>
     </section>
     </div>
 </>

@@ -59,52 +59,34 @@ h1 {
   margin-left: 5%;
 }
 
-.flex{
-  display: flex;
-}
 
 
 .joinBtn-container {
- 
  width: 40%;
  align-content: center;
 }
 
 /* Join now - link to Discord*/
 .join-btn {
-  background: linear-gradient(180deg,rgba(70, 45, 111, 1) 45%, rgba(53, 134, 180, 1) 53%);
+  background: linear-gradient(180deg,rgba(70, 45, 111, 1) 45%, rgba(53, 134, 180, 1) 55%);
   background-clip: text;
   color: transparent;
   font-size: 80px;
   font-weight: 700;
   font-family: var(--font-italianno), cursive;
- 
   width: 100%;
-  
- 
-  
-}
-
-.join-btn > button {
-
 }
 
 #announcement-container {
- 
   display: flex;
-
 }
-
 
 .joinNow {
   max-width: 80%;
-
-
 }
 
 #announcement {
 margin-left: 18%;
-
 }
 
 #announcement-text {
@@ -127,23 +109,21 @@ margin-left: 18%;
   align-items: center;
   display: flex;
   width: 100%;
-  
-
 }
 
 
-h2 { 
-  font-size: 28px;
+
+/* About section */
+
+.about-title { 
+  font-size: 25px;
   margin-top: 5%;
   margin-bottom: 1%;
 }
-.bold {
-  font-weight: var(--font-bold);
-}
 
-.tapin-list {
+.gradient-text {
   font-weight: 700;
-  background: linear-gradient(180deg,rgba(70, 45, 111, 1) 13%, rgba(53, 134, 180, 1) 44%);
+  background: linear-gradient(180deg,rgba(70, 45, 111, 1) 35%, rgba(53, 134, 180, 1) 60%);
   background-clip: text;
   color: transparent;
   font-size: 24px;
@@ -151,9 +131,22 @@ h2 {
 
 
 
+/* Join Discord section */
+
+#discord-container {
+  align-content: center;
+  margin-top: 5%;
+}
+.discord-title {
+  font-size: 25px;
+  margin-top: 5%;
+}
+
+
+
 /* Bigger devices */
 
-@media only screen and (max-width: 2296px) {
+@media only screen and (max-width: 2480px) {
   html,body {
     font-size: 26px;
   }
