@@ -8,50 +8,55 @@ export default function Home() {
     <div id="main-container">
     <section>
       
-      <div className="margin">
-      <h1 className='blue-text'>FAST, FAIR AND AUTOMATED</h1>
+      <div>
+      <h1>FAST, FAIR AND AUTOMATED</h1>
 
       <p>TapIn is your go-to hub for hosting gaming events directly in Discord</p>
       </div>
 
       <div id="announcement-container">
-        <img className="joinNow" src="/Images/joinnow.png" alt="Join now image with Discord link"/>
+
+        <div className="joinBtn-container">
+
+          <button className="join-btn">Join now</button>
+
+        </div>
 
         <div id="announcement">
           
-          <span className="announcement-items">
-            <img src="/Images/purplecircle.svg" alt="Purple circle icon"/>
+          <div className="announcement-items">
+
+            <img src="/Images/bluecircle.svg" alt="Purple circle icon"/>
+
+            <div id="announcement-text" >
+              <h3>BOT</h3>
+              <p>- Setting up events.</p>
+            </div>
             
-            <ul>
-              BOT
-              <li>- Setting up events.</li>
-            </ul>
-          </span>
+          </div>
       
+          <div className="announcement-items">
 
-          <span className="announcement-items">
+            <img src="/Images/purplecircle.svg" alt="Blue circle icon"/>
 
-            <img src="/Images/bluecircle.svg" alt="Blue circle icon"/>
+            <div id="announcement-text-two">
+              <h3>TapIn</h3>
+              <p>- React to events on Discord.</p>
+              <p>- Join the fun!</p>
+            </div>
+            
+          </div>
 
-            <ul>
-              TapIn
-              <li>
-                - React to events on Discord.
-              </li>
-              <li>
-                - Join the fun!
-              </li>
-            </ul>
-          </span>
+          <div className="announcement-items">
 
-          <span className="announcement-items">
-            <img src="/Images/purplecircle.svg" alt="Purple circle icon"/>
+            <img src="/Images/bluecircle.svg" alt="Purple circle icon"/>
 
-            <ul>
-              Leaderboard
-              <li>- Updates after each event.</li>
-            </ul>
-          </span>
+            <div id="announcement-text-three" >
+              <h3>Leaderboard</h3>
+              <p>- Updates after each event.</p>
+            </div>
+            
+          </div>
 
         </div>
 
@@ -63,17 +68,17 @@ export default function Home() {
 
       <h2>Why TapIn?</h2>
 
-      <ul className="blue-text">
+      <ul className="tapin-list">
         Efficient and automated
         <li className="white-text">No need to manage signups or create teams manually.</li>
       </ul>
 
-      <ul className="blue-text">
+      <ul className="tapin-list">
         Balanced competition
         <li className="white-text">Fair teams based on performance.</li>
       </ul>
 
-      <ul className="blue-text">
+      <ul className="tapin-list">
         Engaging and social
         <li className="white-text">Seamless voice setup and dynamic gameplay.</li>
       </ul>

@@ -11,24 +11,32 @@
   --font-regular: 400;
   --font-size-64: 64px;
   --font-size-40: 40px;
-  --font-size-32: 32px;
+  --font-size-20: 20px;
 }
 
 html,body {
   background-color: var(--background);
   color: var(--white-text);
+  font-size: var(--font-size-20);
 }
 
-.blue-text {
-  color: var(--blue-text);
-}
+
 
 .white-text {
   color: var(--white-text);
+  font-weight: var(--font-regular);
+  margin-bottom: 1%;
+  font-size: 20px;
 }
 
 /* Header */
-
+h1 {
+  font-size: 32px;
+  background: linear-gradient(180deg,rgba(70, 45, 111, 1) 25%, rgba(53, 134, 180, 1) 55%);
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
 #header-container {
   height: 100vh;
   max-height: fit-content;
@@ -54,43 +62,164 @@ html,body {
 .flex{
   display: flex;
 }
-/* Settings for smaller devices */
-@media only screen and (max-width: 1024px) {
-  .joinNow {
-    max-width: 45%;
-    
-  }
-  #announcement-container {
-    font-size: 15px;
-    
-  }
+
+
+.joinBtn-container {
+ 
+ width: 40%;
+ align-content: center;
 }
-#announcement-container {
-  width: 100vw;
-  max-width: 90%;
-  display: flex;
-  justify-content: space-between;
+
+/* Join now - link to Discord*/
+.join-btn {
+  background: linear-gradient(180deg,rgba(70, 45, 111, 1) 45%, rgba(53, 134, 180, 1) 53%);
+  background-clip: text;
+  color: transparent;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: var(--font-italianno), cursive;
+ 
+  width: 100%;
+  
+ 
   
 }
 
+.join-btn > button {
 
-.joinNow > img {
-  height: 100vh;
-  max-height: 80%;
+}
 
+#announcement-container {
  
+  display: flex;
+
+}
+
+
+.joinNow {
+  max-width: 80%;
+
+
 }
 
 #announcement {
-  
+margin-left: 18%;
+
+}
+
+#announcement-text {
+  display: flex;
+  margin-top: 8%;
+  flex-direction: column;
+}
+#announcement-text-two {
+  display: flex;
+  margin-top: 16%;
+  flex-direction: column;
+}
+#announcement-text-three {
+  margin-top: 7%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .announcement-items {
   align-items: center;
   display: flex;
+  width: 100%;
+  
 
 }
 
+
+h2 { 
+  font-size: 28px;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+.bold {
+  font-weight: var(--font-bold);
+}
+
+.tapin-list {
+  font-weight: 700;
+  background: linear-gradient(180deg,rgba(70, 45, 111, 1) 13%, rgba(53, 134, 180, 1) 44%);
+  background-clip: text;
+  color: transparent;
+  font-size: 24px;
+}
+
+
+
+/* Bigger devices */
+
+@media only screen and (max-width: 2296px) {
+  html,body {
+    font-size: 26px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  .joinBtn-container {
+    width: 37%;
+  }
+}
+@media only screen and (max-width: 1800px){
+  html,body {
+    font-size: 20px;
+  }
+   h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1121px) {
+
+  .joinBtn-container {
+    width: 30%;
+  }
+  #announcement {
+    margin-left: 0%;
+  }
+}
+
+
+/* Smaller devices */
+
+  @media only screen and (max-width: 840px) {
+  #announcement-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .joinBtn-container {
+    width: 100%;
+  }
+
+  #announcement {
+    justify-content: center;
+  }
+  #announcement-text { 
+    margin-top: 4%;
+    
+  }
+  #announcement-text-two {
+    margin-top: 7%;
+  }
+  #announcement-text-three {
+    margin-top: 4%;
+  }
+}
+
+
+ @media only screen and (max-width: 600px) {
+ html,body {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
