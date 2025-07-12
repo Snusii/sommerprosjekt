@@ -26,21 +26,21 @@ export default function Home() {
 
             <img src="/Images/bluecircle.svg" alt="Purple circle icon"/>
 
-            <div id="announcement-text" >
+            <div id="bot-announcement" >
               <h3 className="announcement-title">BOT</h3>
               <p>- Setting up events.</p>
             </div>
             
           </div>
       
-          <div className="announcement-items">
+          <div id="tapin-items">
 
             <img src="/Images/purplecircle.svg" alt="Blue circle icon"/>
 
-            <div id="announcement-text-two">
+            <div id="tapin-announcement">
               <h3 className="announcement-title">TapIn</h3>
               <p>- React to events on Discord.</p>
-              <p>- Join the fun!</p>
+              
             </div>
             
           </div>
@@ -49,7 +49,7 @@ export default function Home() {
 
             <img src="/Images/bluecircle.svg" alt="Purple circle icon"/>
 
-            <div id="announcement-text-three" >
+            <div id="leaderboard-announcement" >
               <h3 className="announcement-title">Leaderboard</h3>
               <p>- Updates after each event.</p>
             </div>
@@ -86,9 +86,10 @@ export default function Home() {
 
     <section>
       <div id="discord-container">
-       <h2 className="discord-title">Ready to <b>Tap In?</b></h2>
 
-       <p>Join Discord to connect with the community, and hit Leaderboard to see today's top players!</p>
+        <h2 className="discord-title">Ready to <b>Tap In?</b></h2>
+        <p>Join Discord to connect with the community, and hit Leaderboard to see today's top players!</p>
+        <img src="/Images/discord.png" alt="discord icon" />
       </div>
     </section>
     </div>
