@@ -27,7 +27,7 @@ export default function Home() {
             <img src="/Images/bluecircle.svg" alt="Purple circle icon"/>
 
             <div id="announcement-text" >
-              <h3>BOT</h3>
+              <h3 className="announcement-title">BOT</h3>
               <p>- Setting up events.</p>
             </div>
             
@@ -38,7 +38,7 @@ export default function Home() {
             <img src="/Images/purplecircle.svg" alt="Blue circle icon"/>
 
             <div id="announcement-text-two">
-              <h3>TapIn</h3>
+              <h3 className="announcement-title">TapIn</h3>
               <p>- React to events on Discord.</p>
               <p>- Join the fun!</p>
             </div>
@@ -50,7 +50,7 @@ export default function Home() {
             <img src="/Images/bluecircle.svg" alt="Purple circle icon"/>
 
             <div id="announcement-text-three" >
-              <h3>Leaderboard</h3>
+              <h3 className="announcement-title">Leaderboard</h3>
               <p>- Updates after each event.</p>
             </div>
             

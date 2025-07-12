@@ -22,15 +22,6 @@ html,body {
 
 
 
-.white-text {
-  color: var(--white-text);
-  font-weight: var(--font-regular);
-  margin-bottom: 1%;
-  font-size: 20px;
-}
-
-
-
 /* Header */
 
 h1 {
@@ -53,6 +44,13 @@ h1 {
 .logo {
   height: 100vh;
   max-height: 25%;
+}
+
+.nav-btn {
+  background: linear-gradient(180deg,rgba(70, 45, 111, 1) 35%, rgba(53, 134, 180, 1) 60%);
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
 }
 
 
@@ -91,6 +89,10 @@ h1 {
 
 #announcement {
 margin-left: 18%;
+}
+
+.announcement-title {
+  font-size: 20px;
 }
 
 #announcement-text {
@@ -159,6 +161,9 @@ margin-left: 18%;
   h1 {
     font-size: 50px;
   }
+  .nav-btn {
+  font-size: 30px;
+  }
   .joinBtn-container {
     width: 37%;
   }
@@ -174,6 +179,7 @@ margin-left: 18%;
    h1 {
     font-size: 30px;
   }
+
 }
 
 @media only screen and (max-width: 1121px) {
@@ -217,18 +223,30 @@ margin-left: 18%;
   }
 }
 
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 642px) {
  html,body {
-    font-size: 10px;
+    font-size: 11px;
   }
   h1 {
-    font-size: 28px;
+    font-size: 25px;
+  }
+  .nav-btn {
+  font-size: 20px;
   }
 
-   .joinBtn-container {
-    width: 25%;
+  .joinBtn-container {
+  width: 30%;
   }
   .join-btn {
     font-size: 20px;
   }
+  .announcement-title {
+  font-size: 15px;
+  }
+  .about-title { 
+  font-size: 25px;
+}
+.gradient-text {
+  font-size: 20px;
+}
 }

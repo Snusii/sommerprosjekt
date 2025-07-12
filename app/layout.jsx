@@ -1,5 +1,4 @@
 import { Roboto_Condensed } from "next/font/google";
-import { Italianno } from 'next/font/google'
 import { Comic_Neue } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
@@ -10,14 +9,6 @@ const robotoCondensed = Roboto_Condensed ({
   subsets: ["latin"],
   weight: ['400', '700'],
 });
-
-
-const italianno = Italianno({
-  subsets: ['latin'],
-  weight: '400',
-  display: 'swap',
-  variable: '--font-italianno',
-})
 
 
 const comicNeue = Comic_Neue({
@@ -37,7 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${robotoCondensed.variable} ${italianno.variable} ${comicNeue.variable}`}>
+      <body className={`${robotoCondensed.variable} ${comicNeue.variable}`}>
         
         <Header/>
         
