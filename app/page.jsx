@@ -9,9 +9,9 @@ export default function Home() {
     <section>
       
       <div>
-      <h1>FAST, FAIR AND AUTOMATED</h1>
+      <h1 className="margin">FAST, FAIR AND AUTOMATED</h1>
 
-      <p>TapIn is your go-to hub for hosting gaming events directly in Discord</p>
+      <p className="margin">TapIn is your go-to hub for hosting gaming events directly in Discord</p>
       </div>
 
       <div id="announcement-container">
@@ -69,17 +69,17 @@ export default function Home() {
       <h3 className="gradient-text">
         Efficient and automated
       </h3>
-      <p>No need to manage signups or create teams manually.</p>
+      <p className="margin">No need to manage signups or create teams manually.</p>
 
       <h3 className="gradient-text">
         Balanced competition
       </h3>
-      <p>Fair teams based on performance.</p>
+      <p className="margin">Fair teams based on performance.</p>
 
       <h3 className="gradient-text">
         Engaging and social
       </h3>
-      <p>Seamless voice setup and dynamic gameplay.</p>
+      <p className="margin">Seamless voice setup and dynamic gameplay.</p>
       
 
     </section>

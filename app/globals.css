@@ -59,7 +59,7 @@ h1 {
 
 /* Main */
 
-#main-container {
+.margin {
   margin-left: 5%;
 }
 
@@ -70,6 +70,7 @@ h1 {
 #announcement-container {
   display: flex;
   margin-top: 2%;
+  margin-left: 5%;
 }
 
 .joinBtn-container {
@@ -122,6 +123,7 @@ margin-left: 18%;
   font-size: 25px;
   margin-top: 5%;
   margin-bottom: 1%;
+  margin-left: 5%;
 }
 
 .gradient-text {
@@ -130,6 +132,7 @@ margin-left: 18%;
   background-clip: text;
   color: transparent;
   font-size: 24px;
+  margin-left: 5%;
 }
 
 
@@ -137,8 +140,8 @@ margin-left: 18%;
 /* Join Discord section */
 
 #discord-container {
-  align-content: center;
-  margin-top: 5%;
+  text-align: center;
+  margin-top: 10%;
 }
 .discord-title {
   font-size: 25px;
