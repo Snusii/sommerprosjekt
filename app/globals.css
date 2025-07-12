@@ -61,6 +61,12 @@ h1 {
 
 
 
+/* Announcement section */
+
+#announcement-container {
+  display: flex;
+}
+
 .joinBtn-container {
  width: 40%;
  align-content: center;
@@ -75,14 +81,6 @@ h1 {
   font-weight: 700;
   font-family: var(--font-italianno), cursive;
   width: 100%;
-}
-
-#announcement-container {
-  display: flex;
-}
-
-.joinNow {
-  max-width: 80%;
 }
 
 #announcement {

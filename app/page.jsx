@@ -17,9 +17,7 @@ export default function Home() {
       <div id="announcement-container">
 
         <div className="joinBtn-container">
-
           <button className="join-btn">Join now</button>
-
         </div>
 
         <div id="announcement">
