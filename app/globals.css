@@ -76,9 +76,7 @@ h1 {
 
 /* Join now - link to Discord*/
 .join-btn {
-  background: linear-gradient(180deg,rgba(70, 45, 111, 1) 45%, rgba(53, 134, 180, 1) 55%);
-  background-clip: text;
-  color: transparent;
+ color: var(--blue-text);
   font-size: 64px;
   font-weight: 700;
   font-family: var(--font-comic);
@@ -153,18 +151,98 @@ margin-left: 18%;
   text-align: center;
   margin-top: 10%;
 }
+
 .discord-title {
   font-size: 25px;
   margin-top: 5%;
 }
 
+.discord-icon {
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+
+
 
 
 /* Footer */
 
-#footer {
+#footer-container {
+  text-align: center;
+}
+
+/* This is used on the Landing page and Leaderboard page */
+.blue-text {
   color: var(--blue-text);
 }
+
+
+
+/* Leaderboard page */
+
+/* main */
+.leaderboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.score-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid var(--blue-text);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Bigger devices */
@@ -249,8 +327,6 @@ margin-left: 18%;
   h1 {
     font-size: 25px;
   }
- 
-
   .joinBtn-container {
   width: 30%;
   }

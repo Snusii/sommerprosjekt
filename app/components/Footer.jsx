@@ -4,7 +4,9 @@
 export default function Footer() {
 return (
     <>
-    <p id="footer">All rights reserved, tapin.zone ©</p>
+    <div id="footer-container">
+    <p className="footer">All rights reserved, tapin.zone ©</p>
+    </div>
     </>
 )
 }
