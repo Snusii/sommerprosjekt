@@ -2,7 +2,7 @@ import { Roboto_Condensed } from "next/font/google";
 import { Comic_Neue } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
-
+import Footer from "./components/Footer";
 
 
 const robotoCondensed = Roboto_Condensed ({
@@ -37,6 +37,8 @@ export default function RootLayout({ children }) {
           {children}
 
         </main>
+
+        <Footer/>
       
       </body>
     </html>
