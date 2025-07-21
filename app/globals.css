@@ -189,9 +189,6 @@ margin-left: 18%;
 }
 
 .score-container {
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
   border: 2px solid var(--blue-text);
 }
 
