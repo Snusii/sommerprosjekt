@@ -18,9 +18,9 @@ export default function CsTable() {
 
   return (
     <div className="overflow-x-auto">
-      <table className="score-container table-auto border-collapse ">
+      <table className="table-auto w-full border-collapse ">
         <thead>
-          <tr className="border">
+          <tr className="border-2">
             <th className="title-text padding">Rank</th>
             <th className="title-text padding">Username</th>
             <th className="title-text padding">Wins</th>
@@ -41,11 +41,11 @@ export default function CsTable() {
                 key={user._id || user.id || index}
                 className="border"
               >
-                <td className="padding">{index + 1}</td>
-                <td className="padding">{user.username}</td>
-                <td className="padding">{user.gameswin}</td>
-                <td className="padding">{losses}</td>
-                <td className="padding">{winrate}</td>
+                <td className="score-text padding">{index + 1}</td>
+                <td className="score-text padding">{user.username}</td>
+                <td className="score-text padding">{user.gameswin}</td>
+                <td className="score-text padding">{losses}</td>
+                <td className="score-text padding">{winrate}</td>
               </tr>
             );
           })}
