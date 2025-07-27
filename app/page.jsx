@@ -1,7 +1,13 @@
-
+'use client';
 
 
 export default function Home() {
+
+  function JoinDiscord() {
+  
+    window.location.href = "https://discord.gg/SFjsRamDpC";
+  };
+
   return (
     
     <>
@@ -17,7 +23,7 @@ export default function Home() {
       <div id="announcement-container">
 
         <div className="joinBtn-container">
-          <button className="join-btn">Join now</button>
+          <button onClick={() => JoinDiscord()} className="join-btn">Join now</button>
         </div>
 
         <div id="announcement">
@@ -89,7 +95,7 @@ export default function Home() {
 
         <h2 className="discord-title">Ready to <b>Tap In?</b></h2>
         <p>Join Discord to connect with the community, and hit Leaderboard to see today's top players!</p>
-        <button className="discord-icon">
+        <button onClick={() => JoinDiscord()} className="discord-icon">
         <img src="/Images/discord.png" alt="discord icon" />
         </button>
       </div>
