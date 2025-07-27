@@ -26,6 +26,14 @@ const TEST_COMMAND = {
   contexts: [0, 1, 2],
 };
 
+const TOURNEMENT_COMMAND = {
+  name: 'test',
+  description: 'Basic command',
+  type: 1,
+  integration_types: [0, 1],
+  contexts: [0, 1, 2],
+};
+
 // Command containing options
 const CHALLENGE_COMMAND = {
   name: 'challenge',
